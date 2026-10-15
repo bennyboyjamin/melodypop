@@ -1,0 +1,7 @@
+/Users/runner/work/melodypop/melodypop/MelodyPopTests/AppIntegrationTests.swift:75:36: error: extra arguments at positions #1, #2, #3, #4, #5, #6, #7 in call
+/Users/runner/work/melodypop/melodypop/MelodyPopTests/AppIntegrationTests.swift:75:37: error: missing argument for parameter 'from' in call
+/Users/runner/work/melodypop/melodypop/MelodyPopTests/AppIntegrationTests.swift:77:41: error: cannot infer key path type from context; consider explicitly specifying a root type
+        XCTAssertEqual(Set(stickers.map(\.id)), ["first-note", "perfect"])
+/Users/runner/work/melodypop/melodypop/MelodyPopTests/AppIntegrationTests.swift:83:33: error: extra arguments at positions #1, #2, #3, #4, #5, #6, #7 in call
+/Users/runner/work/melodypop/melodypop/MelodyPopTests/AppIntegrationTests.swift:83:34: error: missing argument for parameter 'from' in call
+** TEST FAILED **
