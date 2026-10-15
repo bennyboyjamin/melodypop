@@ -335,6 +335,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = MelodyPop;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "MelodyPop uses Bluetooth to connect to wireless MIDI keyboards.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MelodyPop listens to your piano to check which notes you play. The sound is analyzed on your device and is never recorded or sent anywhere.";
@@ -367,6 +368,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = MelodyPop;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "MelodyPop uses Bluetooth to connect to wireless MIDI keyboards.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MelodyPop listens to your piano to check which notes you play. The sound is analyzed on your device and is never recorded or sent anywhere.";

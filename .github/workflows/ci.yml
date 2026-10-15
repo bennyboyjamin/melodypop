@@ -81,3 +81,24 @@ jobs:
         with:
           name: TestResults-${{ matrix.device }}
           path: TestResults-${{ matrix.device }}.xcresult
+
+  release-archive:
+    name: Release archive (unsigned)
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s "$(ls -d /Applications/Xcode_16*.app | sort -V | tail -1)"
+      - name: Archive like the TestFlight build, without signing
+        run: |
+          xcodebuild -project MelodyPop.xcodeproj -scheme MelodyPop -configuration Release \
+            -destination 'generic/platform=iOS' -archivePath "$RUNNER_TEMP/MelodyPop.xcarchive" \
+            CODE_SIGNING_ALLOWED=NO archive > release.log 2>&1 || true
+          grep -E "error:|\*\* ARCHIVE" release.log | head -20
+          test -d "$RUNNER_TEMP/MelodyPop.xcarchive/Products/Applications/MelodyPop.app"
+      - name: Publish log on failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./.github/scripts/publish-log.sh release release.log
