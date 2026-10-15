@@ -1,0 +1,400 @@
+    cd /Users/runner/work/melodypop/melodypop/Packages/MelodyPopKit
+    builtin-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopKit.o
+
+Ld /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/__preview.dylib normal (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -O0 -L/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -install_name @rpath/MelodyPop.debug.dylib -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop_dependency_info.dat -o /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/__preview.dylib
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_108_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_108_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_108_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_108_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_108_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_108_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_105_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_105_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_105_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_105_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_105_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_105_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_102_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_102_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_102_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_102_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_102_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_102_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_099_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_099_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_099_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_099_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_099_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_099_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_096_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_096_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_096_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_096_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_096_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_096_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_093_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_093_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_093_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_093_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_093_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_093_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_090_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_090_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_090_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_090_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_090_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_090_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_087_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_087_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_087_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_087_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_087_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_087_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_084_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_084_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_084_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_084_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_084_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_084_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_081_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_081_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_081_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_081_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_081_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_081_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_078_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_078_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_078_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_078_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_078_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_078_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_075_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_075_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_075_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_075_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_075_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_075_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_072_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_072_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_072_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_072_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_072_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_072_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_069_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_069_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_069_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_069_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_069_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_069_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_066_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_066_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_066_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_066_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_066_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_066_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_063_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_063_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_063_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_063_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_063_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_063_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_060_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_060_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_060_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_060_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_060_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_060_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_057_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_057_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_057_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_057_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_057_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_057_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_054_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_054_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_054_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_054_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_054_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_054_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_051_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_051_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_051_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_051_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_051_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_051_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_048_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_048_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_048_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_048_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_048_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_048_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_045_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_045_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_045_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_045_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_045_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_045_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_042_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_042_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_042_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_042_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_042_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_042_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_039_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_039_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_039_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_039_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_039_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_039_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_036_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_036_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_036_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_036_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_036_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_036_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_033_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_033_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_033_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_033_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_033_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_033_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_030_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_030_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_030_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_030_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_030_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_030_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_027_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_027_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_027_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_027_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_027_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_027_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_024_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_024_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_024_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_024_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_024_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_024_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_021_soft.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_021_soft.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_021_soft.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/piano_021_loud.wav /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_021_loud.wav (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/piano_021_loud.wav /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+CpResource /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/SALAMANDER_LICENSE.txt /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/SALAMANDER_LICENSE.txt (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/melodypop/melodypop/MelodyPop/Resources/PianoSamples/SALAMANDER_LICENSE.txt /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/libXCTestSwiftSupport.dylib /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/libXCTestBundleInject.dylib /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/XCUnit.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/XCUIAutomation.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/XCTestSupport.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/XCTestCore.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/XCTest.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/XCTAutomationSupport.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks/Testing.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Frameworks
+
+SwiftDriver MelodyPop normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-SwiftDriver -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MelodyPop -Onone -enforce-exclusivity\=checked @/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Index.noindex/DataStore -swift-version 5 -I /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -F /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache -output-file-map /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop-generated-files.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop-own-target-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop-2aa6d3730968ce8c900691f2df49fdf9-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop-project-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop-Swift.h -working-directory /Users/runner/work/melodypop/melodypop -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ RootView.swift,\ KeyboardUIView.swift,\ PianoKeyboardView.swift,\ Theme.swift,\ PianoPanel.swift,\ Models.swift,\ ProgressService.swift,\ GeneratedAssetSymbols.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/RootView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/KeyboardUIView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/PianoKeyboardView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/UI/Theme.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/PianoPanel.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Data/Models.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Data/ProgressService.swift /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MelodyPop' from project 'MelodyPop')
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/RootView.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/KeyboardUIView.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/PianoKeyboardView.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/UI/Theme.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/PianoPanel.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Data/Models.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Data/ProgressService.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ MelodyPop (in target 'MelodyPop' from project 'MelodyPop')
+Failed frontend command:
+/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/runner/work/melodypop/melodypop/MelodyPop/App/AppModel.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Audio/AudioSessionController.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/ModeSelector.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Input/BluetoothMIDIPairingView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/PracticeItem.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Input/MicrophonePianoInput.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/PracticePlayerModel.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/FreePlayView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Input/MIDIPianoInput.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/PracticePlayerView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/JourneyView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Input/PlayModeController.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Audio/PianoAudioEngine.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/StaffView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/MeView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/App/MelodyPopApp.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Input/TouchPianoInput.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/PlayModeSelectionView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/RootView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/KeyboardUIView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/PianoKeyboardView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/UI/Theme.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Keyboard/PianoPanel.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Data/Models.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Data/ProgressService.swift /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources/GeneratedAssetSymbols.swift -target arm64-apple-ios17.0-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -I /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -F /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/runner/work/melodypop/melodypop -resource-dir /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/runner/work/melodypop/melodypop -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop-generated-files.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop-own-target-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop-2aa6d3730968ce8c900691f2df49fdf9-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop-project-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/DerivedSources -Xcc -DDEBUG\=1 -module-name MelodyPop -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.5 -target-sdk-name iphonesimulator18.5 -external-plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -in-process-plugin-server-path /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -emit-module-doc-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop.swiftdoc -emit-module-source-info-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop.swiftsourceinfo -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop-Swift.h -serialize-diagnostics-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop-master-emit-module.dia -emit-dependencies-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop-master-emit-module.d -o /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop.swiftmodule -emit-abi-descriptor-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/Objects-normal/arm64/MelodyPop.abi.json
+
+EmitSwiftModule normal arm64 (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+/Users/runner/work/melodypop/melodypop/MelodyPop/Input/TouchPianoInput.swift:12:54: error: cannot find type 'TimeInterval' in scope
+    func keyDown(_ midi: Int, velocity: Float, time: TimeInterval) {
+                                                     ^~~~~~~~~~~~
+/Users/runner/work/melodypop/melodypop/MelodyPop/Input/TouchPianoInput.swift:17:35: error: cannot find type 'TimeInterval' in scope
+    func keyUp(_ midi: Int, time: TimeInterval) {
+                                  ^~~~~~~~~~~~
+
+SwiftCompile normal arm64 Compiling\ AppModel.swift,\ AudioSessionController.swift,\ ModeSelector.swift,\ BluetoothMIDIPairingView.swift,\ PracticeItem.swift,\ MicrophonePianoInput.swift,\ PracticePlayerModel.swift,\ FreePlayView.swift,\ MIDIPianoInput.swift /Users/runner/work/melodypop/melodypop/MelodyPop/App/AppModel.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Audio/AudioSessionController.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/ModeSelector.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Input/BluetoothMIDIPairingView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/PracticeItem.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Input/MicrophonePianoInput.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/PracticePlayerModel.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/FreePlayView.swift /Users/runner/work/melodypop/melodypop/MelodyPop/Input/MIDIPianoInput.swift (in target 'MelodyPop' from project 'MelodyPop')
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/App/AppModel.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Audio/AudioSessionController.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/ModeSelector.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Input/BluetoothMIDIPairingView.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/PracticeItem.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Input/MicrophonePianoInput.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Practice/PracticePlayerModel.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Screens/FreePlayView.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+SwiftCompile normal arm64 /Users/runner/work/melodypop/melodypop/MelodyPop/Input/MIDIPianoInput.swift (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    
+
+LinkAssetCatalog /Users/runner/work/melodypop/melodypop/MelodyPop/Assets.xcassets (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-linkAssetCatalog --thinned /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/assetcatalog_output/thinned --thinned-dependencies /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/assetcatalog_generated_info.plist_unthinned --output /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app --plist-output /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Assets.car (in target 'MelodyPop' from project 'MelodyPop')
+note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/AppIcon60x60@2x.png (in target 'MelodyPop' from project 'MelodyPop')
+note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/AppIcon76x76@2x~ipad.png (in target 'MelodyPop' from project 'MelodyPop')
+
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/melodypop/melodypop/TestResults-iPhone.xcresult
+
+Testing failed:
+	Cannot find type 'TimeInterval' in scope
+	Cannot find type 'TimeInterval' in scope
+	Testing cancelled because the build failed.
+
+** TEST FAILED **
+
+
+The following build commands failed:
+	SwiftEmitModule normal arm64 Emitting\ module\ for\ MelodyPop (in target 'MelodyPop' from project 'MelodyPop')
+	EmitSwiftModule normal arm64 (in target 'MelodyPop' from project 'MelodyPop')
+	Testing project MelodyPop with scheme MelodyPop
+(3 failures)
