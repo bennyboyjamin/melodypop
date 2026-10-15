@@ -1,0 +1,2 @@
+/Users/runner/work/melodypop/melodypop/Packages/MelodyPopKit/Tests/MelodyPopKitTests/CurriculumAndGamesTests.swift:46: error: -[MelodyPopKitTests.CurriculumTests testMicrophoneCanPlayAllSingleNoteLessons] : XCTAssertEqual failed: ("[26, 27, 30, 29]") is not equal to ("[28, 29, 26, 30, 27]")
+Test Case '-[MelodyPopKitTests.CurriculumTests testMicrophoneCanPlayAllSingleNoteLessons]' failed (0.278 seconds).

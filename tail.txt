@@ -1,0 +1,198 @@
+Building for debugging...
+[0/7] /Users/runner/work/melodypop/melodypop/Packages/MelodyPopKit/.build/arm64-apple-macosx/debug/MelodyPopKitPackageTests.derived/runner.swift
+[0/7] Write sources
+[4/7] Write swift-version--79AA4F9932D1E87A.txt
+[6/19] Emitting module MelodyPopKit
+[7/24] Compiling MelodyPopKit PracticeSession.swift
+[8/24] Compiling MelodyPopKit Recording.swift
+[9/24] Compiling MelodyPopKit Rewards.swift
+[10/24] Compiling MelodyPopKit Score.swift
+[11/24] Compiling MelodyPopKit SongLibrary.swift
+[12/24] Compiling MelodyPopKit NoteSegmenter.swift
+[13/24] Compiling MelodyPopKit PianoInput.swift
+[14/24] Compiling MelodyPopKit PianoSynth.swift
+[15/24] Compiling MelodyPopKit Pitch.swift
+[16/24] Compiling MelodyPopKit PitchTracker.swift
+[17/24] Compiling MelodyPopKit Curriculum.swift
+[18/24] Compiling MelodyPopKit FFT.swift
+[19/24] Compiling MelodyPopKit Games.swift
+[20/24] Compiling MelodyPopKit KeyboardLayout.swift
+[21/24] Compiling MelodyPopKit Lesson.swift
+[22/24] Compiling MelodyPopKit MIDIParser.swift
+[23/29] Compiling MelodyPopKitTests CurriculumAndGamesTests.swift
+[24/29] Compiling MelodyPopKitTests PracticeSessionTests.swift
+[25/30] Emitting module MelodyPopKitTests
+[26/30] Compiling MelodyPopKitTests AudioAnalysisTests.swift
+[27/30] Compiling MelodyPopKitTests CoreTests.swift
+[28/30] Compiling MelodyPopKitTests TestSignals.swift
+[29/32] Compiling MelodyPopKitPackageTests runner.swift
+[30/32] Emitting module MelodyPopKitPackageTests
+[30/32] Write Objects.LinkFileList
+[31/32] Linking MelodyPopKitPackageTests
+Build complete! (19.43s)
+Test Suite 'All tests' started at 2026-10-15 13:33:43.881.
+Test Suite 'MelodyPopKitPackageTests.xctest' started at 2026-10-15 13:33:43.884.
+Test Suite 'CurriculumTests' started at 2026-10-15 13:33:43.884.
+Test Case '-[MelodyPopKitTests.CurriculumTests testCurriculumCoversRequiredSkills]' started.
+Test Case '-[MelodyPopKitTests.CurriculumTests testCurriculumCoversRequiredSkills]' passed (0.010 seconds).
+Test Case '-[MelodyPopKitTests.CurriculumTests testEntitlements]' started.
+Test Case '-[MelodyPopKitTests.CurriculumTests testEntitlements]' passed (0.003 seconds).
+Test Case '-[MelodyPopKitTests.CurriculumTests testEveryLessonIsPlayableAndWellFormed]' started.
+Test Case '-[MelodyPopKitTests.CurriculumTests testEveryLessonIsPlayableAndWellFormed]' passed (0.001 seconds).
+Test Case '-[MelodyPopKitTests.CurriculumTests testMicrophoneCanPlayAllSingleNoteLessons]' started.
+/Users/runner/work/melodypop/melodypop/Packages/MelodyPopKit/Tests/MelodyPopKitTests/CurriculumAndGamesTests.swift:46: error: -[MelodyPopKitTests.CurriculumTests testMicrophoneCanPlayAllSingleNoteLessons] : XCTAssertEqual failed: ("[26, 27, 30, 29]") is not equal to ("[28, 29, 26, 30, 27]")
+Test Case '-[MelodyPopKitTests.CurriculumTests testMicrophoneCanPlayAllSingleNoteLessons]' failed (0.278 seconds).
+Test Case '-[MelodyPopKitTests.CurriculumTests testSongsAreValid]' started.
+Test Case '-[MelodyPopKitTests.CurriculumTests testSongsAreValid]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.CurriculumTests testThirtyLessonsInFiveUnits]' started.
+Test Case '-[MelodyPopKitTests.CurriculumTests testThirtyLessonsInFiveUnits]' passed (0.000 seconds).
+Test Suite 'CurriculumTests' failed at 2026-10-15 13:33:44.177.
+	 Executed 6 tests, with 1 failure (0 unexpected) in 0.293 (0.293) seconds
+Test Suite 'FFTTests' started at 2026-10-15 13:33:44.177.
+Test Case '-[MelodyPopKitTests.FFTTests testForwardInverseRoundTrip]' started.
+Test Case '-[MelodyPopKitTests.FFTTests testForwardInverseRoundTrip]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.FFTTests testSinePeakBin]' started.
+Test Case '-[MelodyPopKitTests.FFTTests testSinePeakBin]' passed (0.001 seconds).
+Test Suite 'FFTTests' passed at 2026-10-15 13:33:44.179.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'GameTests' started at 2026-10-15 13:33:44.179.
+Test Case '-[MelodyPopKitTests.GameTests testKeyFinderAcceptsAnyOctave]' started.
+Test Case '-[MelodyPopKitTests.GameTests testKeyFinderAcceptsAnyOctave]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.GameTests testMelodyMemoryGrowsAndEndsOnMistake]' started.
+Test Case '-[MelodyPopKitTests.GameTests testMelodyMemoryGrowsAndEndsOnMistake]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.GameTests testNoteQuizScoringAndTimeouts]' started.
+Test Case '-[MelodyPopKitTests.GameTests testNoteQuizScoringAndTimeouts]' passed (0.000 seconds).
+Test Suite 'GameTests' passed at 2026-10-15 13:33:44.179.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'KeyboardLayoutTests' started at 2026-10-15 13:33:44.179.
+Test Case '-[MelodyPopKitTests.KeyboardLayoutTests testBlackKeyWinsOverlapAndWhiteBelowIt]' started.
+Test Case '-[MelodyPopKitTests.KeyboardLayoutTests testBlackKeyWinsOverlapAndWhiteBelowIt]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.KeyboardLayoutTests testFullPianoHas52WhiteAnd36BlackKeys]' started.
+Test Case '-[MelodyPopKitTests.KeyboardLayoutTests testFullPianoHas52WhiteAnd36BlackKeys]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.KeyboardLayoutTests testHitTestingEveryKeyCentre]' started.
+Test Case '-[MelodyPopKitTests.KeyboardLayoutTests testHitTestingEveryKeyCentre]' passed (0.005 seconds).
+Test Case '-[MelodyPopKitTests.KeyboardLayoutTests testOctaveOffsets]' started.
+Test Case '-[MelodyPopKitTests.KeyboardLayoutTests testOctaveOffsets]' passed (0.001 seconds).
+Test Suite 'KeyboardLayoutTests' passed at 2026-10-15 13:33:44.186.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.006 (0.006) seconds
+Test Suite 'MIDIParserTests' started at 2026-10-15 13:33:44.186.
+Test Case '-[MelodyPopKitTests.MIDIParserTests testMessagesSplitAcrossPackets]' started.
+Test Case '-[MelodyPopKitTests.MIDIParserTests testMessagesSplitAcrossPackets]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.MIDIParserTests testNoteOnOffAndVelocityZero]' started.
+Test Case '-[MelodyPopKitTests.MIDIParserTests testNoteOnOffAndVelocityZero]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.MIDIParserTests testRunningStatusAndRealtimeInterleaving]' started.
+Test Case '-[MelodyPopKitTests.MIDIParserTests testRunningStatusAndRealtimeInterleaving]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.MIDIParserTests testSysExIsSkippedAndSustainParsed]' started.
+Test Case '-[MelodyPopKitTests.MIDIParserTests testSysExIsSkippedAndSustainParsed]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.MIDIParserTests testUMPMIDI1AndMIDI2]' started.
+Test Case '-[MelodyPopKitTests.MIDIParserTests testUMPMIDI1AndMIDI2]' passed (0.000 seconds).
+Test Suite 'MIDIParserTests' passed at 2026-10-15 13:33:44.186.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'NotationTests' started at 2026-10-15 13:33:44.187.
+Test Case '-[MelodyPopKitTests.NotationTests testErrors]' started.
+Test Case '-[MelodyPopKitTests.NotationTests testErrors]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.NotationTests testParsesDurationsRestsChordsFingers]' started.
+Test Case '-[MelodyPopKitTests.NotationTests testParsesDurationsRestsChordsFingers]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.NotationTests testTwoHandPiece]' started.
+Test Case '-[MelodyPopKitTests.NotationTests testTwoHandPiece]' passed (0.000 seconds).
+Test Suite 'NotationTests' passed at 2026-10-15 13:33:44.187.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'NoteSegmenterTests' started at 2026-10-15 13:33:44.187.
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testBackgroundNoiseProducesNoNotes]' started.
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testBackgroundNoiseProducesNoNotes]' passed (1.521 seconds).
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testEveryNoteOnHasMatchingNoteOff]' started.
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testEveryNoteOnHasMatchingNoteOff]' passed (1.240 seconds).
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testMelodyOnsetsAndPitches]' started.
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testMelodyOnsetsAndPitches]' passed (2.040 seconds).
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testNoiseCalibratorGate]' started.
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testNoiseCalibratorGate]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testRepeatedSameNoteIsReattacked]' started.
+Test Case '-[MelodyPopKitTests.NoteSegmenterTests testRepeatedSameNoteIsReattacked]' passed (1.461 seconds).
+Test Suite 'NoteSegmenterTests' passed at 2026-10-15 13:33:50.449.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 6.261 (6.262) seconds
+Test Suite 'PianoSynthTests' started at 2026-10-15 13:33:50.449.
+Test Case '-[MelodyPopKitTests.PianoSynthTests testChordPolyphonyAndRelease]' started.
+Test Case '-[MelodyPopKitTests.PianoSynthTests testChordPolyphonyAndRelease]' passed (0.124 seconds).
+Test Case '-[MelodyPopKitTests.PianoSynthTests testPitchShiftedNoteHasCorrectFrequency]' started.
+Test Case '-[MelodyPopKitTests.PianoSynthTests testPitchShiftedNoteHasCorrectFrequency]' passed (0.140 seconds).
+Test Case '-[MelodyPopKitTests.PianoSynthTests testRestrikeAndVoiceStealingNeverExceedPool]' started.
+Test Case '-[MelodyPopKitTests.PianoSynthTests testRestrikeAndVoiceStealingNeverExceedPool]' passed (0.122 seconds).
+Test Case '-[MelodyPopKitTests.PianoSynthTests testSampleSelectionAndFileNames]' started.
+Test Case '-[MelodyPopKitTests.PianoSynthTests testSampleSelectionAndFileNames]' passed (0.100 seconds).
+Test Case '-[MelodyPopKitTests.PianoSynthTests testSustainPedalHoldsNotesUntilReleased]' started.
+Test Case '-[MelodyPopKitTests.PianoSynthTests testSustainPedalHoldsNotesUntilReleased]' passed (0.130 seconds).
+Test Case '-[MelodyPopKitTests.PianoSynthTests testVolumeAndClick]' started.
+Test Case '-[MelodyPopKitTests.PianoSynthTests testVolumeAndClick]' passed (0.121 seconds).
+Test Suite 'PianoSynthTests' passed at 2026-10-15 13:33:51.188.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.739 (0.739) seconds
+Test Suite 'PitchTests' started at 2026-10-15 13:33:51.188.
+Test Case '-[MelodyPopKitTests.PitchTests testBlackKeysAndStaffSteps]' started.
+Test Case '-[MelodyPopKitTests.PitchTests testBlackKeysAndStaffSteps]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PitchTests testNamesAndFrequencies]' started.
+Test Case '-[MelodyPopKitTests.PitchTests testNamesAndFrequencies]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PitchTests testParsing]' started.
+Test Case '-[MelodyPopKitTests.PitchTests testParsing]' passed (0.000 seconds).
+Test Suite 'PitchTests' passed at 2026-10-15 13:33:51.189.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'PitchTrackerTests' started at 2026-10-15 13:33:51.189.
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testDetectsPianoLikeTonesC2toC7]' started.
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testDetectsPianoLikeTonesC2toC7]' passed (0.420 seconds).
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testDetectsPureSinesAcrossRange]' started.
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testDetectsPureSinesAcrossRange]' passed (0.282 seconds).
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testNoiseHasLowConfidence]' started.
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testNoiseHasLowConfidence]' passed (0.030 seconds).
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testShortBufferIsRejected]' started.
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testShortBufferIsRejected]' passed (0.006 seconds).
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testSilenceReportsNothing]' started.
+Test Case '-[MelodyPopKitTests.PitchTrackerTests testSilenceReportsNothing]' passed (0.007 seconds).
+Test Suite 'PitchTrackerTests' passed at 2026-10-15 13:33:51.933.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.745 (0.745) seconds
+Test Suite 'PracticeSessionTests' started at 2026-10-15 13:33:51.933.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testLatencyCompensationForMicrophone]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testLatencyCompensationForMicrophone]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testLessonAvailabilityPerInput]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testLessonAvailabilityPerInput]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testPauseResumeKeepsBeatPosition]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testPauseResumeKeepsBeatPosition]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testSwitchingToMicrophoneSimplifiesChordsAndKeepsProgress]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testSwitchingToMicrophoneSimplifiesChordsAndKeepsProgress]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTempoChangeMidRunPreservesBeat]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTempoChangeMidRunPreservesBeat]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTimedModeChordPartialCredit]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTimedModeChordPartialCredit]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTimedModeEarlyLateBoundaries]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTimedModeEarlyLateBoundaries]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTimedModeGradesByTimingError]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTimedModeGradesByTimingError]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTimedModeWrongNotesPenalize]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testTimedModeWrongNotesPenalize]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testUpcomingPitchesTimed]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testUpcomingPitchesTimed]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testWaitModeChordNeedsNotesTogether]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testWaitModeChordNeedsNotesTogether]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testWaitModePerfectRun]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testWaitModePerfectRun]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testWaitModeWrongNotesLowerScore]' started.
+Test Case '-[MelodyPopKitTests.PracticeSessionTests testWaitModeWrongNotesLowerScore]' passed (0.000 seconds).
+Test Suite 'PracticeSessionTests' passed at 2026-10-15 13:33:51.936.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'RecorderTests' started at 2026-10-15 13:33:51.936.
+Test Case '-[MelodyPopKitTests.RecorderTests testRecordStopClosesHeldNotesAndRoundTrips]' started.
+Test Case '-[MelodyPopKitTests.RecorderTests testRecordStopClosesHeldNotesAndRoundTrips]' passed (0.001 seconds).
+Test Suite 'RecorderTests' passed at 2026-10-15 13:33:51.937.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'RewardTests' started at 2026-10-15 13:33:51.937.
+Test Case '-[MelodyPopKitTests.RewardTests testStickerRules]' started.
+Test Case '-[MelodyPopKitTests.RewardTests testStickerRules]' passed (0.000 seconds).
+Test Case '-[MelodyPopKitTests.RewardTests testStreaks]' started.
+Test Case '-[MelodyPopKitTests.RewardTests testStreaks]' passed (0.000 seconds).
+Test Suite 'RewardTests' passed at 2026-10-15 13:33:51.937.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'MelodyPopKitPackageTests.xctest' failed at 2026-10-15 13:33:51.937.
+	 Executed 58 tests, with 1 failure (0 unexpected) in 8.050 (8.053) seconds
+Test Suite 'All tests' failed at 2026-10-15 13:33:51.937.
+	 Executed 58 tests, with 1 failure (0 unexpected) in 8.050 (8.056) seconds
+◇ Test run started.
+↳ Testing Library Version: 124.4
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests passed after 0.001 seconds.
