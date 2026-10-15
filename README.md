@@ -40,6 +40,17 @@ Lessons 1–10 and six songs are free; *MelodyPop Plus* (`com.saystudios.melodyp
 - **Local testing:** the shared scheme points at `MelodyPop.storekit`. If purchases don't show when you Run from Xcode, open *Product → Scheme → Edit Scheme → Run → Options → StoreKit Configuration* and select `MelodyPop.storekit`.
 - **Release:** create the same product ID in App Store Connect before submitting.
 
+## Build for TestFlight on GitHub (no Mac needed)
+
+The **Build iPhone app** workflow (`.github/workflows/ios-app.yml`) works the same way as Say Math's: GitHub's Mac runners build MelodyPop, create the signing certificate and App Store profile through the App Store Connect API, and upload the build to TestFlight.
+
+One-time setup:
+1. In the melodypop repo on GitHub: **Settings → Secrets and variables → Actions → New repository secret**. Add the same four values you use for Say Math: `APPLE_TEAM_ID`, `ASC_KEY_ID`, `ASC_ISSUER_ID`, `ASC_KEY_P8`. (Optional: `BUNDLE_ID` — defaults to `com.saystudios.melodypop`.)
+2. Run the workflow once (step 3). It registers the App ID automatically; the upload step fails on this first run if the app record doesn't exist yet — that's expected.
+3. In **App Store Connect → Apps → + → New App**: platform iOS, name MelodyPop (or any free name), bundle ID `com.saystudios.melodypop`, any SKU.
+
+Each build: **Actions → Build iPhone app → Run workflow**, enter the version (e.g. `1.0`). After about 15–30 minutes the build appears in App Store Connect → TestFlight. Add yourself as an internal tester, install the **TestFlight** app on your iPhone/iPad, and install MelodyPop from there.
+
 ## Tests
 
 - `Packages/MelodyPopKit` – engine unit tests (`swift test` in that folder, or the package scheme in Xcode): pitch detection on synthetic and recorded piano tones, MIDI/UMP parsing, keyboard hit-testing, synth rendering, lesson scoring in both modes, mode switching, curriculum validation, games, rewards.
