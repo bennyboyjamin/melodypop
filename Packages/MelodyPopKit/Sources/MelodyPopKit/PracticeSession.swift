@@ -71,6 +71,16 @@ public struct SessionResult: Equatable, Codable, Sendable {
     public var wrongNotes: Int
     public var stars: Int
 
+    public init(accuracy: Double, noteAccuracy: Double, timingAccuracy: Double, correctTargets: Int, totalTargets: Int, wrongNotes: Int, stars: Int) {
+        self.accuracy = accuracy
+        self.noteAccuracy = noteAccuracy
+        self.timingAccuracy = timingAccuracy
+        self.correctTargets = correctTargets
+        self.totalTargets = totalTargets
+        self.wrongNotes = wrongNotes
+        self.stars = stars
+    }
+
     public static func stars(for accuracy: Double) -> Int {
         accuracy >= 0.9 ? 3 : accuracy >= 0.75 ? 2 : accuracy >= 0.5 ? 1 : 0
     }
