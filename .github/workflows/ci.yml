@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core:
+    name: MelodyPopKit tests
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s "$(ls -d /Applications/Xcode_16*.app | sort -V | tail -1)"
+      - name: swift test
+        working-directory: Packages/MelodyPopKit
+        run: |
+          set -o pipefail
+          swift test 2>&1 | tee ../../core.log | tail -150
+      - name: Publish log on failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./.github/scripts/publish-log.sh core core.log
+
+  app:
+    name: App build, unit & UI tests (${{ matrix.device }})
+    runs-on: macos-15
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        device: [iPhone, iPad]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s "$(ls -d /Applications/Xcode_16*.app | sort -V | tail -1)"
+      - name: Pick simulator
+        id: sim
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)['devices']
+          want='${{ matrix.device }}'
+          c=[x for k,v in d.items() if 'iOS' in k for x in v if x['name'].startswith(want)]
+          c.sort(key=lambda x: x['name'])
+          print(c[-1]['udid'] if want=='iPhone' else c[0]['udid'])")
+          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
+          xcrun simctl list devices | grep "$UDID"
+      - name: Build and test
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project MelodyPop.xcodeproj \
+            -scheme MelodyPop \
+            -destination "id=${{ steps.sim.outputs.udid }}" \
+            -resultBundlePath TestResults-${{ matrix.device }}.xcresult \
+            CODE_SIGNING_ALLOWED=NO \
+            > app.log 2>&1
+      - name: Summarize
+        if: always()
+        run: |
+          grep -E "error:|Test Case.*(passed|failed)|Executed|\*\* (BUILD|TEST)|XCTAssert|: failed" app.log | tail -300 || true
+      - name: Publish log on failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./.github/scripts/publish-log.sh ${{ matrix.device }} app.log
+      - name: Upload results
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TestResults-${{ matrix.device }}
+          path: TestResults-${{ matrix.device }}.xcresult

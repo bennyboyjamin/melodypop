@@ -1,0 +1,40 @@
+{
+  "identifier" : "5C1D2A10",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : true,
+      "internalID" : "6739000001",
+      "localizations" : [
+        {
+          "description" : "Unlock all 30 lessons and every song.",
+          "displayName" : "MelodyPop Plus",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.saystudios.melodypop.plus",
+      "referenceName" : "MelodyPop Plus",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6739000000",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
