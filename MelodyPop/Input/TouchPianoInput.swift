@@ -1,3 +1,4 @@
+import Foundation
 import MelodyPopKit
 
 /// "Play on Screen": events come from `KeyboardUIView`'s multitouch handling.
