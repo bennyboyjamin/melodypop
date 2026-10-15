@@ -46,8 +46,8 @@ The **Build iPhone app** workflow (`.github/workflows/ios-app.yml`) works the sa
 
 One-time setup:
 1. In the melodypop repo on GitHub: **Settings → Secrets and variables → Actions → New repository secret**. Add the same four values you use for Say Math: `APPLE_TEAM_ID`, `ASC_KEY_ID`, `ASC_ISSUER_ID`, `ASC_KEY_P8`. (Optional: `BUNDLE_ID` — defaults to `com.saystudios.melodypop`.)
-2. Run the workflow once (step 3). It registers the App ID automatically; the upload step fails on this first run if the app record doesn't exist yet — that's expected.
-3. In **App Store Connect → Apps → + → New App**: platform iOS, name MelodyPop (or any free name), bundle ID `com.saystudios.melodypop`, any SKU.
+2. Run the workflow once (see *Each build* below). It registers the App ID automatically; on this first run the upload step fails because the app doesn't exist in App Store Connect yet — that's expected.
+3. In **App Store Connect → Apps → + → New App**: platform iOS, name MelodyPop (or any free name), bundle ID `com.saystudios.melodypop`, any SKU. Then run the workflow again.
 
 Each build: **Actions → Build iPhone app → Run workflow**, enter the version (e.g. `1.0`). After about 15–30 minutes the build appears in App Store Connect → TestFlight. Add yourself as an internal tester, install the **TestFlight** app on your iPhone/iPad, and install MelodyPop from there.
 
