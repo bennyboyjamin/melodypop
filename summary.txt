@@ -1,0 +1,399 @@
+2026-10-15 14:02:09.771707+0000 MelodyPop[3658:16610] [error] CoreData: error: Failed to stat path '/Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application Support/default.store', errno 2 / No such file or directory.
+CoreData: error: Failed to stat path '/Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application Support/default.store', errno 2 / No such file or directory.
+2026-10-15 14:02:09.772079+0000 MelodyPop[3658:16610] [error] CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+2026-10-15 14:02:09.772232+0000 MelodyPop[3658:16610] [error] CoreData: error: Failed to statfs file; errno 2 / No such file or directory.
+CoreData: error: Failed to statfs file; errno 2 / No such file or directory.
+2026-10-15 14:02:09.772313+0000 MelodyPop[3658:16610] [error] CoreData: error: Logging status information for directory path: /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application Support
+CoreData: error: Logging status information for directory path: /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application Support
+2026-10-15 14:02:09.812638+0000 MelodyPop[3658:16610] [error] CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+2026-10-15 14:02:09.812765+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /
+CoreData: error: Information for /
+2026-10-15 14:02:09.812827+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.812874+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.819230+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		704 bytes
+CoreData: error:   File Size: 		704 bytes
+2026-10-15 14:02:09.819337+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		2
+CoreData: error:   File inode: 		2
+2026-10-15 14:02:09.819409+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		0
+CoreData: error:   File user ID: 		0
+2026-10-15 14:02:09.819468+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		0
+CoreData: error:   File group ID: 		0
+2026-10-15 14:02:09.819515+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.819554+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.819607+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.819754+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.869899+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.869991+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not writeable with errno 30
+CoreData: error:   component is not writeable with errno 30
+2026-10-15 14:02:09.870066+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users
+CoreData: error: Information for /Users
+2026-10-15 14:02:09.870115+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.870163+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.870236+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		160 bytes
+CoreData: error:   File Size: 		160 bytes
+2026-10-15 14:02:09.870294+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		17196
+CoreData: error:   File inode: 		17196
+2026-10-15 14:02:09.871023+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		0
+CoreData: error:   File user ID: 		0
+2026-10-15 14:02:09.871089+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		80
+CoreData: error:   File group ID: 		80
+2026-10-15 14:02:09.871140+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.871181+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.871222+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.871263+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.871352+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.872168+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not writeable with errno 13
+CoreData: error:   component is not writeable with errno 13
+2026-10-15 14:02:09.872282+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner
+CoreData: error: Information for /Users/runner
+2026-10-15 14:02:09.872339+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.872384+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.872421+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		1312 bytes
+CoreData: error:   File Size: 		1312 bytes
+2026-10-15 14:02:09.872462+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		27994
+CoreData: error:   File inode: 		27994
+2026-10-15 14:02:09.872534+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.873021+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.873079+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.873117+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.873167+0000 MelodyPop[3658:16610] [error] CoreData: error:   750
+CoreData: error:   750
+2026-10-15 14:02:09.873212+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.873287+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.873337+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.873411+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library
+CoreData: error: Information for /Users/runner/Library
+2026-10-15 14:02:09.873781+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.873835+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.873895+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		2688 bytes
+CoreData: error:   File Size: 		2688 bytes
+2026-10-15 14:02:09.873956+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		28001
+CoreData: error:   File inode: 		28001
+2026-10-15 14:02:09.874003+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.874041+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.874081+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.874740+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.874789+0000 MelodyPop[3658:16610] [error] CoreData: error:   700
+CoreData: error:   700
+2026-10-15 14:02:09.874826+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.874918+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.874995+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.875078+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer
+CoreData: error: Information for /Users/runner/Library/Developer
+2026-10-15 14:02:09.875134+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.876019+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.876073+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		160 bytes
+CoreData: error:   File Size: 		160 bytes
+2026-10-15 14:02:09.876110+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		2742032
+CoreData: error:   File inode: 		2742032
+2026-10-15 14:02:09.876145+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.876181+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.876215+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.876273+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.876394+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.877285+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.877390+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.877448+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.877509+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator
+2026-10-15 14:02:09.877551+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.877592+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.878033+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		160 bytes
+CoreData: error:   File Size: 		160 bytes
+2026-10-15 14:02:09.878090+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		2742050
+CoreData: error:   File inode: 		2742050
+2026-10-15 14:02:09.878129+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.878192+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.878233+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.878279+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.878331+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.878387+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.879739+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.879936+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.880044+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices
+2026-10-15 14:02:09.880102+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.880148+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.880199+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		4320 bytes
+CoreData: error:   File Size: 		4320 bytes
+2026-10-15 14:02:09.881212+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		2742079
+CoreData: error:   File inode: 		2742079
+2026-10-15 14:02:09.881302+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.881344+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.881383+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.881501+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.881550+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.881590+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.881712+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.882159+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.882229+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF
+2026-10-15 14:02:09.882438+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.882544+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.882596+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		160 bytes
+CoreData: error:   File Size: 		160 bytes
+2026-10-15 14:02:09.882643+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		3404040
+CoreData: error:   File inode: 		3404040
+2026-10-15 14:02:09.883096+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.883142+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.883186+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.883234+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.883279+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.883328+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.883525+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.883758+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.884805+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data
+2026-10-15 14:02:09.884866+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.884909+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.884948+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		384 bytes
+CoreData: error:   File Size: 		384 bytes
+2026-10-15 14:02:09.884986+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		3404041
+CoreData: error:   File inode: 		3404041
+2026-10-15 14:02:09.885089+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.885385+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.885511+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.885582+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.885722+0000 MelodyPop[3658:16610] [error] CoreData: error:   775
+CoreData: error:   775
+2026-10-15 14:02:09.885916+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.886069+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.886131+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.889421+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers
+2026-10-15 14:02:09.889515+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.889582+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.889631+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		224 bytes
+CoreData: error:   File Size: 		224 bytes
+2026-10-15 14:02:09.889751+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		3513193
+CoreData: error:   File inode: 		3513193
+2026-10-15 14:02:09.889801+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.891316+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.891465+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.891572+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.891616+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.891664+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.891782+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.891840+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.904871+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data
+2026-10-15 14:02:09.905114+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.905225+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.905272+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		192 bytes
+CoreData: error:   File Size: 		192 bytes
+2026-10-15 14:02:09.905318+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		3513214
+CoreData: error:   File inode: 		3513214
+2026-10-15 14:02:09.905420+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.906950+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.907099+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.907219+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.907355+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.907468+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.907634+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.907711+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.907895+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application
+2026-10-15 14:02:09.910270+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.910456+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.910541+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		4640 bytes
+CoreData: error:   File Size: 		4640 bytes
+2026-10-15 14:02:09.910583+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		3513379
+CoreData: error:   File inode: 		3513379
+2026-10-15 14:02:09.910627+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.976151+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.976449+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.976647+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.976797+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.976882+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.977025+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.977098+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.977209+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050
+2026-10-15 14:02:09.982256+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.982448+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.982517+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		224 bytes
+CoreData: error:   File Size: 		224 bytes
+2026-10-15 14:02:09.982561+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		3522902
+CoreData: error:   File inode: 		3522902
+2026-10-15 14:02:09.982603+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:09.985862+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:09.986116+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:09.986271+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:09.986335+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:09.986387+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:09.986476+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:09.986534+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:09.986720+0000 MelodyPop[3658:16610] [error] CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library
+CoreData: error: Information for /Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library
+2026-10-15 14:02:09.993842+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Device ID: 	0
+CoreData: error:   File Device ID: 	0
+2026-10-15 14:02:09.994033+0000 MelodyPop[3658:16610] [error] CoreData: error:   Device ID: 		16777229
+CoreData: error:   Device ID: 		16777229
+2026-10-15 14:02:09.994204+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Size: 		160 bytes
+CoreData: error:   File Size: 		160 bytes
+2026-10-15 14:02:09.994305+0000 MelodyPop[3658:16610] [error] CoreData: error:   File inode: 		3522904
+CoreData: error:   File inode: 		3522904
+2026-10-15 14:02:10.001202+0000 MelodyPop[3658:16610] [error] CoreData: error:   File user ID: 		501
+CoreData: error:   File user ID: 		501
+2026-10-15 14:02:10.001507+0000 MelodyPop[3658:16610] [error] CoreData: error:   File group ID: 		20
+CoreData: error:   File group ID: 		20
+2026-10-15 14:02:10.001681+0000 MelodyPop[3658:16610] [error] CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+2026-10-15 14:02:10.001742+0000 MelodyPop[3658:16610] [error] CoreData: error: d
+CoreData: error: d
+2026-10-15 14:02:10.001787+0000 MelodyPop[3658:16610] [error] CoreData: error:   755
+CoreData: error:   755
+2026-10-15 14:02:10.001830+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+2026-10-15 14:02:10.001928+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is readable
+CoreData: error:   component is readable
+2026-10-15 14:02:10.001986+0000 MelodyPop[3658:16610] [error] CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+2026-10-15 14:02:10.003985+0000 MelodyPop[3658:16610] [error] CoreData: error: Failed to stat path '/Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application Support', errno 2 / No such file or directory.
+CoreData: error: Failed to stat path '/Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application Support', errno 2 / No such file or directory.
+2026-10-15 14:02:10.004198+0000 MelodyPop[3658:16610] [error] CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+2026-10-15 14:02:10.004703+0000 MelodyPop[3658:16610] [error] CoreData: error: addPersistentStoreWithType:configuration:URL:options:error: returned error NSCocoaErrorDomain (512)
+CoreData: error: addPersistentStoreWithType:configuration:URL:options:error: returned error NSCocoaErrorDomain (512)
+2026-10-15 14:02:10.005256+0000 MelodyPop[3658:16610] [error] CoreData: error: userInfo:
+CoreData: error: userInfo:
+2026-10-15 14:02:10.005402+0000 MelodyPop[3658:16610] [error] CoreData: error: 	reason : Failed to create file; code = 2
+CoreData: error: 	reason : Failed to create file; code = 2
+2026-10-15 14:02:10.005583+0000 MelodyPop[3658:16610] [error] CoreData: error: storeType: SQLite
+CoreData: error: storeType: SQLite
+2026-10-15 14:02:10.005745+0000 MelodyPop[3658:16610] [error] CoreData: error: configuration: default
+CoreData: error: configuration: default
+2026-10-15 14:02:10.005960+0000 MelodyPop[3658:16610] [error] CoreData: error: URL: file:///Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application%20Support/default.store
+CoreData: error: URL: file:///Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application%20Support/default.store
+2026-10-15 14:02:10.012630+0000 MelodyPop[3658:16610] [error] CoreData: error: <NSPersistentStoreCoordinator: 0x600002c0c580>: Attempting recovery from error encountered during addPersistentStore: 0x600000c0a3d0 Error Domain=NSCocoaErrorDomain Code=512 "The file couldn’t be saved." UserInfo={reason=Failed to create file; code = 2}
+CoreData: error: <NSPersistentStoreCoordinator: 0x600002c0c580>: Attempting recovery from error encountered during addPersistentStore: 0x600000c0a3d0 Error Domain=NSCocoaErrorDomain Code=512 "The file couldn’t be saved." UserInfo={reason=Failed to create file; code = 2}
+2026-10-15 14:02:10.013079+0000 MelodyPop[3658:16610] [error] CoreData: error: During recovery, parent directory path reported as missing
+CoreData: error: During recovery, parent directory path reported as missing
+2026-10-15 14:02:10.021301+0000 MelodyPop[3658:16610] [error] CoreData: error: Recovery attempt while adding <NSPersistentStoreDescription: 0x600000c0a3d0> (type: SQLite, url: file:///Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application%20Support/default.store) was successful!
+CoreData: error: Recovery attempt while adding <NSPersistentStoreDescription: 0x600000c0a3d0> (type: SQLite, url: file:///Users/runner/Library/Developer/CoreSimulator/Devices/48B2DA2E-AF18-4E36-BB25-B25969A4EBCF/data/Containers/Data/Application/274C1FC4-755A-41A1-A0C4-D32F570E6050/Library/Application%20Support/default.store) was successful!
+/Users/runner/work/melodypop/melodypop/MelodyPopUITests/MelodyPopUITests.swift:142: error: -[MelodyPopUITests.MelodyPopUITests testKeyFinderGameScores] : Failed to tap "game-keyFinder" Button: No matches found for Elements matching predicate '"game-keyFinder" IN identifiers' from input {(
+Test Case '-[MelodyPopUITests.MelodyPopUITests testKeyFinderGameScores]' failed (55.099 seconds).
+** TEST FAILED **
