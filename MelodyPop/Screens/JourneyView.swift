@@ -7,6 +7,7 @@ struct JourneyView: View {
     @Environment(AppModel.self) private var app
     @Environment(PlayModeController.self) private var play
     @Environment(\.modelContext) private var context
+    @Environment(StoreManager.self) private var store
     @Query(sort: \StudentProfile.createdAt) private var students: [StudentProfile]
     @State private var path: [Int] = []
     @State private var lockedMessage: String?
@@ -36,7 +37,9 @@ struct JourneyView: View {
                     PracticePlayerView(
                         item: PracticeItem(lesson: lesson),
                         source: play.mode,
-                        nextItem: Curriculum.lesson(id: id + 1).flatMap { isUnlocked($0.id, afterCompleting: id) ? PracticeItem(lesson: $0) : nil },
+                        nextItem: Curriculum.lesson(id: id + 1).flatMap { next in
+                            isUnlocked(next.id, afterCompleting: id) && !Entitlements.isLessonLocked(next.id, hasPlus: store.hasPlus) ? PracticeItem(lesson: next) : nil
+                        },
                         onNext: { next in path = [next.id] }
                     )
                     .id(id)
@@ -95,11 +98,14 @@ struct JourneyView: View {
 
     private func lessonRow(_ lesson: Lesson, wiggle: Int) -> some View {
         let progress = student?.progress(for: lesson.id)
-        let unlocked = isUnlocked(lesson.id)
+        let premiumLocked = Entitlements.isLessonLocked(lesson.id, hasPlus: store.hasPlus)
+        let unlocked = isUnlocked(lesson.id) && !premiumLocked
         let offsets: [CGFloat] = [0, 34, 60, 34, 0, -20]
         return Button {
             if unlocked {
                 path.append(lesson.id)
+            } else if premiumLocked && isUnlocked(lesson.id) {
+                lockedMessage = "\"\(lesson.title)\" is part of MelodyPop Plus. Ask a grown-up to look in the Parent Dashboard (Me tab)."
             } else {
                 lockedMessage = "Finish lesson \(lesson.id - 1) to unlock \"\(lesson.title)\"."
             }

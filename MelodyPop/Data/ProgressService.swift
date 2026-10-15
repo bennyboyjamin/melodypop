@@ -29,8 +29,8 @@ enum ProgressService {
         return awardStickers(student: student, context: context, perfectRun: result.accuracy >= 0.999)
     }
 
-    static func log(activity: String, itemID: Int, title: String, seconds: TimeInterval, accuracy: Double, source: InputSource, student: StudentProfile, context: ModelContext) {
-        let entry = PracticeLog(seconds: max(0, seconds), activity: activity, itemID: itemID, itemTitle: title, accuracy: accuracy, inputSource: source)
+    static func log(activity: String, itemID: Int, title: String, seconds: TimeInterval, accuracy: Double, score: Int = 0, source: InputSource, student: StudentProfile, context: ModelContext) {
+        let entry = PracticeLog(seconds: max(0, seconds), activity: activity, itemID: itemID, itemTitle: title, accuracy: accuracy, score: score, inputSource: source)
         context.insert(entry)
         entry.student = student
         try? context.save()
@@ -48,7 +48,7 @@ enum ProgressService {
         s.recordings = student.recordings.count
         s.minutesPracticed = student.practiceLogs.reduce(0) { $0 + $1.seconds } / 60
         s.sourcesUsed = Set(student.practiceLogs.compactMap { InputSource(rawValue: $0.inputSource) })
-        s.bestGameScore = Int(student.practiceLogs.filter { $0.activity == "game" }.map(\.accuracy).max() ?? 0)
+        s.bestGameScore = student.practiceLogs.filter { $0.activity == "game" }.map(\.score).max() ?? 0
         return s
     }
 

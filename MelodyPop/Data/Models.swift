@@ -65,16 +65,19 @@ final class PracticeLog {
     var itemID: Int
     var itemTitle: String
     var accuracy: Double
+    /// Game points (0 for lessons and songs).
+    var score: Int = 0
     var inputSource: String
     var student: StudentProfile?
 
-    init(date: Date = .now, seconds: Double, activity: String, itemID: Int, itemTitle: String, accuracy: Double, inputSource: InputSource) {
+    init(date: Date = .now, seconds: Double, activity: String, itemID: Int, itemTitle: String, accuracy: Double, score: Int = 0, inputSource: InputSource) {
         self.date = date
         self.seconds = seconds
         self.activity = activity
         self.itemID = itemID
         self.itemTitle = itemTitle
         self.accuracy = accuracy
+        self.score = score
         self.inputSource = inputSource.rawValue
     }
 }

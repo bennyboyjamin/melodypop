@@ -89,6 +89,22 @@ final class ProgressTests: XCTestCase {
         XCTAssertEqual(ProgressService.snapshot(for: student).sourcesUsed, [.touch, .midi])
     }
 
+    func testGameAndSongLoggingFeedsRewards() throws {
+        let student = StudentProfile(name: "Cy")
+        context.insert(student)
+        for _ in 0..<5 {
+            ProgressService.log(activity: "game", itemID: PianoGame.keyFinder.logID, title: "Key Finder", seconds: 60, accuracy: 0.8, score: 640, source: .microphone, student: student, context: context)
+        }
+        let song = SongLibrary.songs[0]
+        let result = SessionResult(accuracy: 0.9, noteAccuracy: 0.9, timingAccuracy: 0.9, correctTargets: 9, totalTargets: 10, wrongNotes: 1, stars: 3)
+        let stickers = ProgressService.record(item: PracticeItem(song: song), result: result, seconds: 30, source: .midi, student: student, context: context)
+        XCTAssertTrue(Set(stickers.map(\.id)).isSuperset(of: ["gamer", "first-song"]))
+        let snap = ProgressService.snapshot(for: student)
+        XCTAssertEqual(snap.bestGameScore, 640)
+        XCTAssertEqual(snap.songsCompleted, 1)
+        XCTAssertTrue(student.lessonProgress.isEmpty) // songs don't create lesson progress
+    }
+
     func testRecordingsPersist() throws {
         let student = StudentProfile(name: "Ben")
         context.insert(student)

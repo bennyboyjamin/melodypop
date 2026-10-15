@@ -9,6 +9,7 @@ final class AppModel {
     static let isUITesting = ProcessInfo.processInfo.arguments.contains("-uitest")
 
     let play: PlayModeController
+    let store: StoreManager
     var currentStudentID: UUID? {
         didSet { UserDefaults.standard.set(currentStudentID?.uuidString, forKey: "currentStudentID") }
     }
@@ -25,6 +26,7 @@ final class AppModel {
             }
         }
         play = PlayModeController(initialMode: AppModel.isUITesting ? .touch : nil)
+        store = StoreManager()
         currentStudentID = UserDefaults.standard.string(forKey: "currentStudentID").flatMap(UUID.init(uuidString:))
         needsModeSelection = !UserDefaults.standard.bool(forKey: "didChooseMode")
     }

@@ -78,6 +78,9 @@ struct MeView: View {
         VStack(spacing: 0) {
             NavigationLink { PlayModeSelectionView() } label: { linkRow("Play Mode", "pianokeys") }
             Divider()
+            NavigationLink { ParentAreaView() } label: { linkRow("Parent Dashboard", "person.2.fill") }
+                .accessibilityIdentifier("open-parents")
+            Divider()
             NavigationLink { AboutView() } label: { linkRow("About & Credits", "info.circle") }
         }
         .card()

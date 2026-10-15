@@ -143,7 +143,9 @@ final class PracticePlayerModel {
         if isTimed {
             let beats = item.piece.beatsPerBar
             countInEnd = t + Double(beats) * session.secondsPerBeat
-            session.resume(at: countInEnd)
+            // Paused during the count-in: start the count-in over so beat 0 lands right after it.
+            let pausedBeat = session.beat(at: t)
+            session.resume(at: pausedBeat < 0 ? countInEnd + pausedBeat * session.secondsPerBeat : countInEnd)
             lastClickBeat = Int(floor(session.beat(at: t))) - 1
             phase = .countIn(beatsLeft: beats)
         } else {

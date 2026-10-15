@@ -25,6 +25,7 @@ struct RootView: View {
             started = true
             app.seedForUITests(context: context)
             await app.play.activateCurrentMode()
+            await app.store.load()
         }
     }
 }
@@ -38,6 +39,12 @@ struct MainTabView: View {
             NavigationStack { FreePlayView() }
                 .tabItem { Label("Piano", systemImage: "pianokeys") }
                 .accessibilityIdentifier("tab-piano")
+            SongLibraryView()
+                .tabItem { Label("Songs", systemImage: "music.note.list") }
+                .accessibilityIdentifier("tab-songs")
+            NavigationStack { GamesHubView() }
+                .tabItem { Label("Games", systemImage: "gamecontroller.fill") }
+                .accessibilityIdentifier("tab-games")
             NavigationStack { MeView() }
                 .tabItem { Label("Me", systemImage: "person.crop.circle.fill") }
         }

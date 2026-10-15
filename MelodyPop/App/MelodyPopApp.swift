@@ -17,6 +17,7 @@ struct MelodyPopApp: App {
             RootView()
                 .environment(app)
                 .environment(app.play)
+                .environment(app.store)
                 .preferredColorScheme(.light)
                 .tint(Theme.lavenderDeep)
         }
