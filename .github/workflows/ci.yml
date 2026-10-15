@@ -5,6 +5,9 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
@@ -22,7 +25,12 @@ jobs:
         working-directory: Packages/MelodyPopKit
         run: |
           set -o pipefail
-          swift test 2>&1 | tail -150
+          swift test 2>&1 | tee ../../core.log | tail -150
+      - name: Publish log on failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./.github/scripts/publish-log.sh core core.log
 
   app:
     name: App build, unit & UI tests (${{ matrix.device }})
@@ -57,7 +65,15 @@ jobs:
             -destination "id=${{ steps.sim.outputs.udid }}" \
             -resultBundlePath TestResults-${{ matrix.device }}.xcresult \
             CODE_SIGNING_ALLOWED=NO \
-            2>&1 | grep -E "error:|warning: .*MelodyPop|Test Case|Executed|\*\* (BUILD|TEST)|failed|XCTAssert" | tail -300
+            > app.log 2>&1
+      - name: Summarize
+        if: always()
+        run: grep -E "error:|Test Case.*(passed|failed)|Executed|\*\* (BUILD|TEST)|XCTAssert|: failed" app.log | tail -300 || true
+      - name: Publish log on failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./.github/scripts/publish-log.sh ${{ matrix.device }} app.log
       - name: Upload results
         if: failure()
         uses: actions/upload-artifact@v4
