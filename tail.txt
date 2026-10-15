@@ -1,0 +1,400 @@
+2026-10-15 13:27:25.587 appintentsmetadataprocessor[2403:11193] Starting appintentsmetadataprocessor export
+2026-10-15 13:27:25.589 appintentsmetadataprocessor[2403:11193] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppIntegrationTests.swift (in target 'MelodyPopTests' from project 'MelodyPop')
+
+SwiftDriver\ Compilation MelodyPopTests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MelodyPopTests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-Swift-Compilation -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MelodyPopTests -Onone -enforce-exclusivity\=checked @/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests.SwiftFileList -DDEBUG -plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Index.noindex/DataStore -swift-version 5 -I /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -I /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache -output-file-map /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/MelodyPopTests-generated-files.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/MelodyPopTests-own-target-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/MelodyPopTests-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop-2aa6d3730968ce8c900691f2df49fdf9-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/MelodyPopTests-project-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests-Swift.h -working-directory /Users/runner/work/melodypop/melodypop -experimental-emit-module-separately -disable-cmo
+
+AppIntentsSSUTraining (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Info.plist --temp-dir-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/ssu --bundle-id com.saystudios.melodypop --product-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app --extracted-metadata-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/Metadata.appintents --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPop.build/MelodyPop.DependencyMetadataFileList --archive-ssu-assets
+2026-10-15 13:27:25.620 appintentsnltrainingprocessor[2404:11194] Parsing options for appintentsnltrainingprocessor
+2026-10-15 13:27:25.621 appintentsnltrainingprocessor[2404:11194] No AppShortcuts found - Skipping.
+
+Ld /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/MelodyPopTests normal (in target 'MelodyPopTests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -bundle -isysroot /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -O0 -L/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -L/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk/Developer/Library/Frameworks -filelist /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests.LinkFileList -Xlinker -rpath -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/PackageFrameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -bundle_loader /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/MelodyPop -Xlinker -object_path_lto -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests.swiftmodule -Wl,-no_warn_duplicate_libraries -framework XCTest -lXCTestSwiftSupport /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/MelodyPop.debug.dylib -o /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/MelodyPopTests
+
+ProcessInfoPlistFile /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/Info.plist /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/empty-MelodyPopTests.plist (in target 'MelodyPopTests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-infoPlistUtility /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/empty-MelodyPopTests.plist -producttype com.apple.product-type.bundle.unit-test -expandbuildsettings -format binary -platform iphonesimulator -o /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/Info.plist
+
+CopySwiftLibs /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest (in target 'MelodyPopTests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/MelodyPopTests --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/Frameworks --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/PlugIns --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/SystemExtensions --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/Extensions --platform iphonesimulator --toolchain /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'MelodyPopTests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name MelodyPopTests --sdk-root /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk --xcode-version 16F6 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.saystudios.melodypop.tests --output /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/MelodyPopTests --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/MelodyPopTests.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/MelodyPopTests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/Objects-normal/arm64/MelodyPopTests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-10-15 13:27:25.856 appintentsmetadataprocessor[2407:11200] Starting appintentsmetadataprocessor export
+2026-10-15 13:27:25.858 appintentsmetadataprocessor[2407:11200] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+AppIntentsSSUTraining (in target 'MelodyPopTests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/Info.plist --temp-dir-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/ssu --bundle-id com.saystudios.melodypop.tests --product-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest --extracted-metadata-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest/Metadata.appintents --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopTests.build/MelodyPopTests.DependencyMetadataFileList --archive-ssu-assets
+2026-10-15 13:27:25.873 appintentsnltrainingprocessor[2408:11201] Parsing options for appintentsnltrainingprocessor
+2026-10-15 13:27:25.874 appintentsnltrainingprocessor[2408:11201] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest (in target 'MelodyPopTests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest
+
+Touch /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest (in target 'MelodyPopTests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /usr/bin/touch -c /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app/PlugIns/MelodyPopTests.xctest
+
+RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+Validate /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-validationUtility /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app -infoplist-subpath Info.plist
+
+Touch /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app (in target 'MelodyPop' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /usr/bin/touch -c /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPop.app
+
+Ld /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/MelodyPopUITests normal (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -bundle -isysroot /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -O0 -L/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -L/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk/Developer/Library/Frameworks -filelist /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/Objects-normal/arm64/MelodyPopUITests.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/Objects-normal/arm64/MelodyPopUITests_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/Objects-normal/arm64/MelodyPopUITests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/Objects-normal/arm64/MelodyPopUITests.swiftmodule -framework XCTest -lXCTestSwiftSupport -o /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/MelodyPopUITests
+
+ProcessInfoPlistFile /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/Info.plist /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/empty-MelodyPopUITests.plist (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-infoPlistUtility /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/empty-MelodyPopUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/ProductTypeInfoPlistAdditions.plist -o /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/Info.plist
+
+CopySwiftLibs /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/MelodyPopUITests --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/Frameworks --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/PlugIns --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/SystemExtensions --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/Extensions --platform iphonesimulator --toolchain /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name MelodyPopUITests --sdk-root /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk --xcode-version 16F6 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.saystudios.melodypop.uitests --output /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/MelodyPopUITests --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/Objects-normal/arm64/MelodyPopUITests_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/Objects-normal/arm64/MelodyPopUITests.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/MelodyPopUITests.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/MelodyPopUITests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/Objects-normal/arm64/MelodyPopUITests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-10-15 13:27:26.024 appintentsmetadataprocessor[2413:11210] Starting appintentsmetadataprocessor export
+2026-10-15 13:27:26.026 appintentsmetadataprocessor[2413:11210] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+AppIntentsSSUTraining (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/Info.plist --temp-dir-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/ssu --bundle-id com.saystudios.melodypop.uitests --product-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest --extracted-metadata-path /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/Metadata.appintents --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Intermediates.noindex/MelodyPop.build/Debug-iphonesimulator/MelodyPopUITests.build/MelodyPopUITests.DependencyMetadataFileList --archive-ssu-assets
+2026-10-15 13:27:26.041 appintentsnltrainingprocessor[2414:11211] Parsing options for appintentsnltrainingprocessor
+2026-10-15 13:27:26.041 appintentsnltrainingprocessor[2414:11211] No AppShortcuts found - Skipping.
+
+MkDir /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /bin/mkdir -p /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app
+
+CopyPlistFile /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Info.plist /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copyPlist --validate --convert xml1 --macro-expansion WRAPPEDPRODUCTNAME MelodyPopUITests-Runner --macro-expansion WRAPPEDPRODUCTBUNDLEIDENTIFIER com.saystudios.melodypop.uitests.xctrunner --macro-expansion TESTPRODUCTNAME MelodyPopUITests --macro-expansion TESTPRODUCTBUNDLEIDENTIFIER com.saystudios.melodypop.uitests --copy-value UIDeviceFamily /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest/Info.plist --outdir /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app -- /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist
+
+CopyAndPreserveArchs /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/MelodyPopUITests-Runner (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/XCTRunner -output /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/MelodyPopUITests-Runner -extract arm64
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PkgInfo /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks/libXCTestSwiftSupport.dylib /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks/XCUnit.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks/XCUIAutomation.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks/XCTestSupport.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks/XCTestCore.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks/XCTest.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks/XCTAutomationSupport.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks
+
+Copy /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks/Testing.framework /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/Frameworks
+
+RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    builtin-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest
+
+Touch /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest (in target 'MelodyPopUITests' from project 'MelodyPop')
+    cd /Users/runner/work/melodypop/melodypop
+    /usr/bin/touch -c /Users/runner/Library/Developer/Xcode/DerivedData/MelodyPop-hasbjpqdusmrqkacgvowkndyucjb/Build/Products/Debug-iphonesimulator/MelodyPopUITests-Runner.app/PlugIns/MelodyPopUITests.xctest
+
+2026-10-15 13:28:28.229703+0000 MelodyPop[3557:15529] [plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x600000291700> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+Test Suite 'All tests' started at 2026-10-15 13:28:30.639.
+Test Suite 'MelodyPopTests.xctest' started at 2026-10-15 13:28:30.641.
+Test Suite 'AudioIntegrationTests' started at 2026-10-15 13:28:30.642.
+Test Case '-[MelodyPopTests.AudioIntegrationTests testBundledPianoSamplesLoad]' started.
+Test Case '-[MelodyPopTests.AudioIntegrationTests testBundledPianoSamplesLoad]' passed (0.085 seconds).
+Test Case '-[MelodyPopTests.AudioIntegrationTests testMicrophonePipelineOnRecordedPiano]' started.
+Test Case '-[MelodyPopTests.AudioIntegrationTests testMicrophonePipelineOnRecordedPiano]' passed (2.390 seconds).
+Test Case '-[MelodyPopTests.AudioIntegrationTests testRenderedPianoNotesHaveCorrectPitch]' started.
+Test Case '-[MelodyPopTests.AudioIntegrationTests testRenderedPianoNotesHaveCorrectPitch]' passed (0.284 seconds).
+Test Suite 'AudioIntegrationTests' passed at 2026-10-15 13:28:33.402.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 2.758 (2.760) seconds
+Test Suite 'PlayModeRoutingTests' started at 2026-10-15 13:28:33.402.
+Test Case '-[MelodyPopTests.PlayModeRoutingTests testLessonOneThroughSharedEngineSurvivesModeSwitch]' started.
+Test Case '-[MelodyPopTests.PlayModeRoutingTests testLessonOneThroughSharedEngineSurvivesModeSwitch]' passed (4.449 seconds).
+Test Case '-[MelodyPopTests.PlayModeRoutingTests testTouchEventsReachListenersAndHighlight]' started.
+Test Case '-[MelodyPopTests.PlayModeRoutingTests testTouchEventsReachListenersAndHighlight]' passed (0.003 seconds).
+Test Suite 'PlayModeRoutingTests' passed at 2026-10-15 13:28:37.854.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 4.452 (4.452) seconds
+Test Suite 'ProgressTests' started at 2026-10-15 13:28:37.855.
+Test Case '-[MelodyPopTests.ProgressTests testRecordingLessonResultUpdatesProgressAndStickers]' started.
+Test Case '-[MelodyPopTests.ProgressTests testRecordingLessonResultUpdatesProgressAndStickers]' passed (0.045 seconds).
+Test Case '-[MelodyPopTests.ProgressTests testRecordingsPersist]' started.
+Test Case '-[MelodyPopTests.ProgressTests testRecordingsPersist]' passed (0.015 seconds).
+Test Suite 'ProgressTests' passed at 2026-10-15 13:28:38.203.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.060 (0.349) seconds
+Test Suite 'MelodyPopTests.xctest' passed at 2026-10-15 13:28:38.204.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 7.270 (7.563) seconds
+Test Suite 'All tests' passed at 2026-10-15 13:28:38.205.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 7.270 (7.566) seconds
+2026-10-15 13:28:44.943707+0000 MelodyPopUITests-Runner[3901:16947] [Default] Running tests...
+2026-10-15 13:28:44.958315+0000 MelodyPopUITests-Runner[3901:16965] [General] Failed to send CA Event for app launch measurements for ca_event_type: 0 event_name: com.apple.app_launch_measurement.FirstFramePresentationMetric
+2026-10-15 13:28:45.001063+0000 MelodyPopUITests-Runner[3901:16959] [General] Failed to send CA Event for app launch measurements for ca_event_type: 1 event_name: com.apple.app_launch_measurement.ExtendedLaunchMetrics
+Test Suite 'All tests' started at 2026-10-15 13:28:51.415.
+Test Suite 'MelodyPopUITests.xctest' started at 2026-10-15 13:28:51.416.
+Test Suite 'MelodyPopUITests' started at 2026-10-15 13:28:51.416.
+Test Case '-[MelodyPopUITests.MelodyPopUITests testLessonOneWithVirtualPianoAndModeSwitching]' started.
+    t =     0.00s Start Test at 2026-10-15 13:28:51.417
+    t =     0.67s Set Up
+    t =     0.68s Open com.saystudios.melodypop
+    t =     0.68s     Launch com.saystudios.melodypop
+    t =     6.06s         Setting up automation session
+    t =     6.12s         Wait for com.saystudios.melodypop to idle
+    t =     7.13s Waiting 10.0s for "lesson-1" Button to exist
+    t =     8.14s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson-1" Button`
+    t =     8.14s         Checking existence of `"lesson-1" Button`
+    t =     9.78s Tap "lesson-1" Button
+    t =     9.78s     Wait for com.saystudios.melodypop to idle
+    t =     9.79s     Find the "lesson-1" Button
+    t =    10.57s     Check for interrupting elements affecting "lesson-1" Button
+    t =    12.26s     Synthesize event
+    t =    12.85s     Wait for com.saystudios.melodypop to idle
+    t =    13.57s Waiting 5.0s for "mode-touch" Button to exist
+    t =    14.64s     Checking `Expect predicate `existsNoRetry == 1` for object "mode-touch" Button`
+    t =    14.64s         Checking existence of `"mode-touch" Button`
+    t =    14.69s Checking existence of `"mode-microphone" Button`
+    t =    14.72s Checking existence of `"mode-midi" Button`
+    t =    14.76s Tap "start-button" Button
+    t =    14.76s     Wait for com.saystudios.melodypop to idle
+    t =    14.76s     Find the "start-button" Button
+    t =    14.79s     Check for interrupting elements affecting "start-button" Button
+    t =    14.85s     Synthesize event
+    t =    15.14s     Wait for com.saystudios.melodypop to idle
+    t =    15.14s Waiting 5.0s for "key-60" Other to exist
+    t =    16.18s     Checking `Expect predicate `existsNoRetry == 1` for object "key-60" Other`
+    t =    16.18s         Checking existence of `"key-60" Other`
+    t =    16.23s Tap "key-60" Other
+    t =    16.23s     Wait for com.saystudios.melodypop to idle
+    t =    16.23s     Find the "key-60" Other
+    t =    16.26s     Check for interrupting elements affecting "key-60" Other
+    t =    16.29s     Synthesize event
+    t =    16.60s     Wait for com.saystudios.melodypop to idle
+    t =    16.61s Tap "key-60" Other
+    t =    16.61s     Wait for com.saystudios.melodypop to idle
+    t =    16.61s     Find the "key-60" Other
+    t =    16.67s     Check for interrupting elements affecting "key-60" Other
+    t =    16.70s     Synthesize event
+    t =    17.00s     Wait for com.saystudios.melodypop to idle
+    t =    17.00s Find the "progress-label" StaticText
+    t =    17.03s Tap "key-62" Other
+    t =    17.03s     Wait for com.saystudios.melodypop to idle
+    t =    17.03s     Find the "key-62" Other
+    t =    17.07s     Check for interrupting elements affecting "key-62" Other
+    t =    17.10s     Synthesize event
+    t =    17.39s     Wait for com.saystudios.melodypop to idle
+    t =    17.40s Find the "progress-label" StaticText
+    t =    17.43s Tap "mode-midi" Button
+    t =    17.43s     Wait for com.saystudios.melodypop to idle
+    t =    17.43s     Find the "mode-midi" Button
+    t =    17.47s     Check for interrupting elements affecting "mode-midi" Button
+    t =    17.53s     Synthesize event
+    t =    17.89s     Wait for com.saystudios.melodypop to idle
+    t =    18.70s Find the "progress-label" StaticText
+    t =    18.89s Tap "mode-touch" Button
+    t =    18.89s     Wait for com.saystudios.melodypop to idle
+    t =    18.90s     Find the "mode-touch" Button
+    t =    18.95s     Check for interrupting elements affecting "mode-touch" Button
+    t =    19.07s     Synthesize event
+    t =    19.39s     Wait for com.saystudios.melodypop to idle
+    t =    19.40s Waiting 2.0s for "resume-button" Button to exist
+    t =    20.45s     Checking `Expect predicate `existsNoRetry == 1` for object "resume-button" Button`
+    t =    20.45s         Checking existence of `"resume-button" Button`
+    t =    20.54s         Capturing element debug description
+    t =    21.41s     Checking `Expect predicate `existsNoRetry == 1` for object "resume-button" Button`
+    t =    21.41s         Checking existence of `"resume-button" Button`
+    t =    21.71s         Capturing element debug description
+    t =    21.71s     Checking existence of `"resume-button" Button`
+    t =    22.09s Collecting debug information to assist test failure triage
+    t =    22.09s     Requesting snapshot of accessibility hierarchy for app with pid 4242
+    t =    22.18s Find the "progress-label" StaticText
+    t =    22.21s Tap "key-60" Other
+    t =    22.21s     Wait for com.saystudios.melodypop to idle
+    t =    22.21s     Find the "key-60" Other
+    t =    22.29s     Check for interrupting elements affecting "key-60" Other
+    t =    22.33s     Synthesize event
+    t =    22.64s     Wait for com.saystudios.melodypop to idle
+    t =    22.64s Tap "key-60" Other
+    t =    22.64s     Wait for com.saystudios.melodypop to idle
+    t =    22.65s     Find the "key-60" Other
+    t =    22.70s     Check for interrupting elements affecting "key-60" Other
+    t =    22.74s     Synthesize event
+    t =    23.05s     Wait for com.saystudios.melodypop to idle
+    t =    23.05s Tap "key-60" Other
+    t =    23.05s     Wait for com.saystudios.melodypop to idle
+    t =    23.06s     Find the "key-60" Other
+    t =    23.15s     Check for interrupting elements affecting "key-60" Other
+    t =    23.18s     Synthesize event
+    t =    23.48s     Wait for com.saystudios.melodypop to idle
+    t =    23.48s Tap "key-60" Other
+    t =    23.48s     Wait for com.saystudios.melodypop to idle
+    t =    23.49s     Find the "key-60" Other
+    t =    23.54s     Check for interrupting elements affecting "key-60" Other
+    t =    23.57s     Synthesize event
+    t =    23.87s     Wait for com.saystudios.melodypop to idle
+    t =    23.87s Tap "key-60" Other
+    t =    23.87s     Wait for com.saystudios.melodypop to idle
+    t =    23.90s     Find the "key-60" Other
+    t =    23.94s     Check for interrupting elements affecting "key-60" Other
+    t =    24.00s     Synthesize event
+    t =    24.30s     Wait for com.saystudios.melodypop to idle
+    t =    24.34s Waiting 5.0s for "result-accuracy" StaticText to exist
+    t =    25.39s     Checking `Expect predicate `existsNoRetry == 1` for object "result-accuracy" StaticText`
+    t =    25.39s         Checking existence of `"result-accuracy" StaticText`
+    t =    25.44s Find the "result-accuracy" StaticText
+    t =    25.52s Tap "result-done" Button
+    t =    25.52s     Wait for com.saystudios.melodypop to idle
+    t =    25.52s     Find the "result-done" Button
+    t =    25.56s     Check for interrupting elements affecting "result-done" Button
+    t =    25.62s     Synthesize event
+    t =    25.96s     Wait for com.saystudios.melodypop to idle
+    t =    26.33s Waiting 5.0s for "lesson-1" Button to exist
+    t =    27.35s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson-1" Button`
+    t =    27.35s         Checking existence of `"lesson-1" Button`
+    t =    27.38s Tear Down
+Test Case '-[MelodyPopUITests.MelodyPopUITests testLessonOneWithVirtualPianoAndModeSwitching]' passed (27.747 seconds).
+Test Case '-[MelodyPopUITests.MelodyPopUITests testOnboardingCreatesProfileAndShowsModeSelection]' started.
+    t =     0.00s Start Test at 2026-10-15 13:29:19.167
+    t =     0.07s Set Up
+    t =     0.07s Open com.saystudios.melodypop
+    t =     0.07s     Launch com.saystudios.melodypop
+    t =     0.07s         Terminate com.saystudios.melodypop:4242
+    t =     2.63s         Setting up automation session
+    t =     3.86s         Wait for com.saystudios.melodypop to idle
+    t =     5.57s Waiting 10.0s for "profile-name" TextField to exist
+    t =     6.60s     Checking `Expect predicate `existsNoRetry == 1` for object "profile-name" TextField`
+    t =     6.60s         Checking existence of `"profile-name" TextField`
+    t =     6.71s Tap "profile-name" TextField
+    t =     6.71s     Wait for com.saystudios.melodypop to idle
+    t =     6.71s     Find the "profile-name" TextField
+    t =     6.73s     Check for interrupting elements affecting "profile-name" TextField
+    t =     6.76s     Synthesize event
+    t =     7.07s     Wait for com.saystudios.melodypop to idle
+    t =     8.00s Type 'Leo' into "profile-name" TextField
+    t =     8.00s     Wait for com.saystudios.melodypop to idle
+    t =     8.43s     Find the "profile-name" TextField
+    t =     8.63s     Check for interrupting elements affecting "profile-name" TextField
+    t =     8.75s     Synthesize event
+    t =     9.03s     Wait for com.saystudios.melodypop to idle
+    t =     9.04s Tap "create-profile" Button
+    t =     9.04s     Wait for com.saystudios.melodypop to idle
+    t =     9.19s     Find the "create-profile" Button
+    t =    10.12s     Check for interrupting elements affecting "create-profile" Button
+    t =    10.17s     Synthesize event
+    t =    10.60s     Wait for com.saystudios.melodypop to idle
+    t =    10.62s Waiting 5.0s for "select-mode-microphone" Button to exist
+    t =    11.66s     Checking `Expect predicate `existsNoRetry == 1` for object "select-mode-microphone" Button`
+    t =    11.66s         Checking existence of `"select-mode-microphone" Button`
+    t =    11.69s Checking existence of `"select-mode-midi" Button`
+    t =    11.72s Checking existence of `"select-mode-touch" Button`
+    t =    11.81s Tap "select-mode-touch" Button
+    t =    11.81s     Wait for com.saystudios.melodypop to idle
+    t =    11.81s     Find the "select-mode-touch" Button
+    t =    11.86s     Check for interrupting elements affecting "select-mode-touch" Button
+    t =    11.88s     Synthesize event
+    t =    12.18s     Wait for com.saystudios.melodypop to idle
+    t =    12.18s Tap "start-learning" Button
+    t =    12.18s     Wait for com.saystudios.melodypop to idle
+    t =    12.18s     Find the "start-learning" Button
+    t =    12.21s     Check for interrupting elements affecting "start-learning" Button
+    t =    12.23s     Synthesize event
+    t =    12.55s     Wait for com.saystudios.melodypop to idle
+    t =    12.71s Waiting 5.0s for "lesson-1" Button to exist
+    t =    13.73s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson-1" Button`
+    t =    13.73s         Checking existence of `"lesson-1" Button`
+    t =    13.78s Checking existence of `"Hi, Leo!" StaticText`
+    t =    13.88s Tear Down
+Test Case '-[MelodyPopUITests.MelodyPopUITests testOnboardingCreatesProfileAndShowsModeSelection]' passed (17.881 seconds).
+Test Case '-[MelodyPopUITests.MelodyPopUITests testVirtualPianoPlaysHighlightsRecordsAndPlaysBack]' started.
+    t =     0.00s Start Test at 2026-10-15 13:29:37.048
+    t =     0.05s Set Up
+    t =     0.05s Open com.saystudios.melodypop
+    t =     0.05s     Launch com.saystudios.melodypop
+    t =     0.05s         Terminate com.saystudios.melodypop:4753
+    t =     2.49s         Setting up automation session
+    t =     4.09s         Wait for com.saystudios.melodypop to idle
+    t =     7.42s Tap "Piano" Button
+    t =     7.42s     Wait for com.saystudios.melodypop to idle
+    t =     7.43s     Find the "Piano" Button
+    t =     9.02s         Find the "Piano" Button (retry 1)
+    t =    10.06s         Find the "Piano" Button (retry 2)
+    t =    10.23s Requesting snapshot of accessibility hierarchy for app with pid 5239
+/Users/runner/work/melodypop/melodypop/MelodyPopUITests/MelodyPopUITests.swift:35: error: -[MelodyPopUITests.MelodyPopUITests testVirtualPianoPlaysHighlightsRecordsAndPlaysBack] : Failed to tap "Piano" Button: No matches found for Descendants matching type TabBar from input {(
+    Application, pid: 5239, label: 'MelodyPop'
+)}
+Possibly caused by runtime issues:
+Automation type mismatch: computed Button from legacy attributes vs Cell from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 75;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeTraits" = 146297323520;
+}
+Automation type mismatch: computed Button from legacy attributes vs Other from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 0;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeTraits" = 8858370048;
+}
+See test report attachments for more detail.
+    t =    12.14s Tear Down
+Test Case '-[MelodyPopUITests.MelodyPopUITests testVirtualPianoPlaysHighlightsRecordsAndPlaysBack]' failed (13.702 seconds).
+Test Suite 'MelodyPopUITests' failed at 2026-10-15 13:29:50.750.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 59.330 (59.334) seconds
+Test Suite 'MelodyPopUITests.xctest' failed at 2026-10-15 13:29:50.751.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 59.330 (59.335) seconds
+Test Suite 'All tests' failed at 2026-10-15 13:29:50.751.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 59.330 (59.336) seconds
+2026-10-15 13:30:23.154 xcodebuild[2090:9610] [MT] IDETestOperationsObserverDebug: 177.074 elapsed -- Testing started completed.
+2026-10-15 13:30:23.155 xcodebuild[2090:9610] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-15 13:30:23.156 xcodebuild[2090:9610] [MT] IDETestOperationsObserverDebug: 177.074 sec, +177.074 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/melodypop/melodypop/TestResults-iPad.xcresult
+
+Failing tests:
+	MelodyPopUITests.testVirtualPianoPlaysHighlightsRecordsAndPlaysBack()
+
+** TEST FAILED **
+
+Testing started
