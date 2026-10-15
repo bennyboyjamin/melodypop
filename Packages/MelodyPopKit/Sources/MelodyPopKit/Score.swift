@@ -112,14 +112,16 @@ public enum Notation {
             guard parts.count == 2 else { throw ParseError.badToken(String(raw)) }
             let length = try beats(for: parts[1])
             if parts[0] == "r" { beat += length; continue }
-            var pitchPart = parts[0]
             var finger: Int?
-            if let at = pitchPart.firstIndex(of: "@") {
-                finger = Int(pitchPart[pitchPart.index(after: at)...])
-                pitchPart = pitchPart[..<at]
-            }
             var pitches: [Pitch] = []
-            for name in pitchPart.split(separator: "+") {
+            // Each chord member may carry its own finger ("C4@1+E4@3+G4@5"); the first one is kept for display.
+            for member in parts[0].split(separator: "+") {
+                var name = member
+                if let at = member.firstIndex(of: "@") {
+                    guard let f = Int(member[member.index(after: at)...]) else { throw ParseError.badToken(String(raw)) }
+                    if finger == nil { finger = f }
+                    name = member[..<at]
+                }
                 guard let p = Pitch(name: String(name)) else { throw ParseError.badPitch(String(name)) }
                 pitches.append(p)
             }

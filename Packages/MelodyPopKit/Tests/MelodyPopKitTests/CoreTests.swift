@@ -231,6 +231,14 @@ final class NotationTests: XCTestCase {
         XCTAssertEqual(notes[3].startBeat, 4)
     }
 
+    func testFingeredChordsKeepAllNotes() throws {
+        let notes = try Notation.parse("C4@1+E4@3+G4@5:w B3@1+D4+G4:h", hand: .right)
+        XCTAssertEqual(notes[0].pitches.map(\.midi), [60, 64, 67])
+        XCTAssertEqual(notes[0].finger, 1)
+        XCTAssertEqual(notes[1].pitches.map(\.midi), [59, 62, 67])
+        XCTAssertThrowsError(try Notation.parse("C4@x:q", hand: .right))
+    }
+
     func testErrors() {
         XCTAssertThrowsError(try Notation.parse("C4", hand: .right))
         XCTAssertThrowsError(try Notation.parse("X4:q", hand: .right))
