@@ -68,7 +68,8 @@ jobs:
             > app.log 2>&1
       - name: Summarize
         if: always()
-        run: grep -E "error:|Test Case.*(passed|failed)|Executed|\*\* (BUILD|TEST)|XCTAssert|: failed" app.log | tail -300 || true
+        run: |
+          grep -E "error:|Test Case.*(passed|failed)|Executed|\*\* (BUILD|TEST)|XCTAssert|: failed" app.log | tail -300 || true
       - name: Publish log on failure
         if: failure()
         env:
