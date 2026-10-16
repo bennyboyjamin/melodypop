@@ -9,6 +9,8 @@
 #   ASC_KEY_ID      App Store Connect API key ID
 #   ASC_ISSUER_ID   App Store Connect API issuer ID
 #   ASC_KEY_P8      full text of the AuthKey_XXXX.p8 file (including BEGIN/END lines)
+# Also requires APPLE_DISTRIBUTION_P12_BASE64, APPLE_DISTRIBUTION_P12_PASSWORD,
+# and APP_STORE_PROFILE_BASE64. Never create or revoke certificates in this workflow.
 # Optional:
 #   BUNDLE_ID       defaults to com.saystudios.melodypop
 # The App ID is registered automatically on the first run. You must create the app once in
@@ -34,6 +36,9 @@ jobs:
       KEY_ID: ${{ secrets.ASC_KEY_ID }}
       ISSUER: ${{ secrets.ASC_ISSUER_ID }}
       P8: ${{ secrets.ASC_KEY_P8 }}
+      SIGNING_P12_BASE64: ${{ secrets.APPLE_DISTRIBUTION_P12_BASE64 }}
+      SIGNING_P12_PASSWORD: ${{ secrets.APPLE_DISTRIBUTION_P12_PASSWORD }}
+      SIGNING_PROFILE_BASE64: ${{ secrets.APP_STORE_PROFILE_BASE64 }}
       VER: ${{ inputs.version }}
       BUILD: ${{ github.run_number }}
       PROFILE_NAME: MelodyPop CI ${{ github.run_id }}
@@ -106,25 +111,34 @@ jobs:
           EOF
           KEYFILE=~/private_keys/AuthKey_$KEY_ID.p8 ruby /tmp/check.rb
 
-      - name: Make App Store signing files
+      - name: Import reusable Apple signing assets
+        shell: bash
         run: |
-          KEYFILE=~/private_keys/AuthKey_$KEY_ID.p8 ruby .github/scripts/asc.rb setup
-          cd "$SIGN_DIR"
-          KC="$SIGN_DIR/build.keychain-db"; KP=$(openssl rand -hex 12); PP=$(openssl rand -hex 12)
-          security create-keychain -p "$KP" "$KC"
-          security set-keychain-settings -lut 21600 "$KC"
-          security unlock-keychain -p "$KP" "$KC"
-          curl -fsSL -o wwdr.cer https://www.apple.com/certificateauthority/AppleWWDRCAG3.cer && security import wwdr.cer -k "$KC" -T /usr/bin/codesign || true
-          openssl x509 -inform DER -in dist.cer -out dist.pem
-          openssl pkcs12 -export -legacy -inkey dist.key -in dist.pem -out dist.p12 -passout pass:$PP 2>/dev/null || openssl pkcs12 -export -inkey dist.key -in dist.pem -out dist.p12 -passout pass:$PP
-          security import dist.p12 -k "$KC" -P "$PP" -T /usr/bin/codesign -T /usr/bin/security
-          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KP" "$KC" >/dev/null
-          security list-keychains -d user -s "$KC" $(security list-keychains -d user | sed 's/"//g')
-          security find-identity -v -p codesigning "$KC"
-          UUID=$(cat profile_uuid)
-          for d in "$HOME/Library/MobileDevice/Provisioning Profiles" "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles"; do mkdir -p "$d"; cp app.mobileprovision "$d/$UUID.mobileprovision"; done
-          rm -f dist.key dist.p12
-          echo "Signing files are ready."
+          for key in SIGNING_P12_BASE64 SIGNING_P12_PASSWORD SIGNING_PROFILE_BASE64; do
+            if [ -z "${!key}" ]; then echo "::error::Missing $key GitHub secret. Set up reusable signing before running this workflow."; exit 1; fi
+          done
+          SIGN_PATH="$RUNNER_TEMP/reusable-signing"
+          mkdir -p "$SIGN_PATH"
+          printf '%s' "$SIGNING_P12_BASE64" | base64 --decode > "$SIGN_PATH/distribution.p12"
+          printf '%s' "$SIGNING_PROFILE_BASE64" | base64 --decode > "$SIGN_PATH/app.mobileprovision"
+          openssl pkcs12 -in "$SIGN_PATH/distribution.p12" -passin env:SIGNING_P12_PASSWORD -noout
+          security cms -D -i "$SIGN_PATH/app.mobileprovision" > "$SIGN_PATH/profile.plist"
+          PROFILE_UUID=$(/usr/libexec/PlistBuddy -c 'Print :UUID' "$SIGN_PATH/profile.plist")
+          PROFILE_NAME=$(/usr/libexec/PlistBuddy -c 'Print :Name' "$SIGN_PATH/profile.plist")
+          PROFILE_APP_ID=$(/usr/libexec/PlistBuddy -c 'Print :Entitlements:application-identifier' "$SIGN_PATH/profile.plist")
+          case "$PROFILE_APP_ID" in *."$BUNDLE_ID") ;; *) echo "::error::Provisioning profile does not match bundle ID $BUNDLE_ID"; exit 1;; esac
+          KC_PASSWORD="$(openssl rand -hex 24)"
+          KC_PATH="$SIGN_PATH/build.keychain-db"
+          security create-keychain -p "$KC_PASSWORD" "$KC_PATH"
+          security unlock-keychain -p "$KC_PASSWORD" "$KC_PATH"
+          security set-keychain-settings -lut 21600 "$KC_PATH"
+          security import "$SIGN_PATH/distribution.p12" -k "$KC_PATH" -P "$SIGNING_P12_PASSWORD" -T /usr/bin/codesign
+          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KC_PASSWORD" "$KC_PATH"
+          security list-keychains -d user -s "$KC_PATH"
+          security find-identity -v -p codesigning "$KC_PATH"
+          for d in "$HOME/Library/MobileDevice/Provisioning Profiles" "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles"; do mkdir -p "$d"; cp "$SIGN_PATH/app.mobileprovision" "$d/$PROFILE_UUID.mobileprovision"; done
+          echo "PROFILE_NAME=$PROFILE_NAME" >> "$GITHUB_ENV"
+          echo "KEYCHAIN_PATH=$KC_PATH" >> "$GITHUB_ENV"
 
       - name: Set up App Store signing in the project
         run: python3 .github/scripts/set-signing.py MelodyPop.xcodeproj/project.pbxproj
@@ -167,7 +181,8 @@ jobs:
       - name: Remove signing files from this computer
         if: always()
         run: |
-          [ -n "$SIGN_DIR" ] && security delete-keychain "$SIGN_DIR/build.keychain-db" 2>/dev/null || true
+          [ -n "${KEYCHAIN_PATH:-}" ] && security delete-keychain "$KEYCHAIN_PATH" 2>/dev/null || true
+          rm -rf "$RUNNER_TEMP/reusable-signing"
 
       - name: Clean up key
         if: always()
