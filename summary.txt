@@ -1,0 +1,3 @@
+/Users/runner/work/melodypop/melodypop/MelodyPopUITests/MelodyPopUITests.swift:136: error: -[MelodyPopUITests.MelodyPopUITests testSongPracticeRunsTimedScoring] : XCTAssertTrue failed
+Test Case '-[MelodyPopUITests.MelodyPopUITests testSongPracticeRunsTimedScoring]' failed (36.025 seconds).
+** TEST FAILED **
